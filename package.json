@@ -1,0 +1,22 @@
+{
+  "name": "trabajo-practico-integrador-4",
+  "version": "1.0.0",
+  "description": "Investigación en TypeScript",
+  "type": "module",
+  "scripts": {
+    "tema3": "tsx src/03-tipos-basicos.ts",
+    "tema4": "tsx src/04-funciones.ts",
+    "tema5": "tsx src/05-interfaces-y-type.ts",
+    "tema6": "tsx src/06-enums-y-literales.ts",
+    "check": "tsc --noEmit",
+    "check:watch": "tsc --noEmit --watch",
+    "build": "tsc"
+  },
+  "author": "Santiago Christian Berger",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
