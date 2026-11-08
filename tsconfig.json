@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    // a qué versión de JavaScript se compila
+    "target": "ES2022",
+    // sistema de módulos: sigue lo que indique "type" en package.json
+    "module": "nodenext",
+
+    // dónde está el código fuente y dónde va el JavaScript generado
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // tipos globales a incluir (process, fs, etc.)
+    "types": ["node"],
+
+    // verificación estricta de tipos
+    "strict": true,
+    // no generar archivos si hay errores de tipos
+    "noEmitOnError": true,
+
+    // mejor compatibilidad al importar librerías CommonJS
+    "esModuleInterop": true,
+    // no revisar los tipos dentro de node_modules (más rápido)
+    "skipLibCheck": true,
+    // error si un import no respeta mayúsculas/minúsculas del archivo
+    "forceConsistentCasingInFileNames": true,
+    // mapas para que los errores en ejecución apunten al .ts original
+    "sourceMap": true
+  },
+  // archivos que forman parte del proyecto
+  "include": ["src"]
+}
