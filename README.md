@@ -235,7 +235,7 @@ function saludar(nombre: string, edad: number = 18): void {
 Fuentes: 
 - https://www.luisllamas.es/typescript-parametros-funciones/
 
-Ejemplo en código: 
+Ejemplo en código: src/04-funciones.ts
 
 
 ## Tema 5: Interfaces y type
@@ -301,6 +301,8 @@ interface Usuario {
 
 Fuentes:
 - Material de la cátedra.
+
+Ejemplo en código: src/05-interfaces-y-type.ts
 
 ## Tema 6: Enums y tipos literales
 
@@ -417,3 +419,5 @@ let heading: CardinalDirection = "North";
 
 Fuentes:
 - https://blog.logrocket.com/typescript-enums-vs-types/
+
+Ejemplo en código: src/06-enums-y-literales.ts
